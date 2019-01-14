@@ -14,19 +14,18 @@ public class NationalerCup extends Wettkampf {
     @OneToMany(cascade = CascadeType.ALL)
     @JsonbTransient
     List<Team> teams;
-    LocalDate finalDatum;
 
     //region Konstruktoren
     public NationalerCup() {
     }
 
-    public NationalerCup(int teilnehmerzahl, Wettkampftyp typ, String name, String land, List<Team> teams, LocalDate finalDatum) {
-        super(teilnehmerzahl, typ);
+    public NationalerCup(int teilnehmeranzahl, LocalDate finalDatum, String saison, Wettkampftyp typ, String name, String land, List<Team> teams) {
+        super(teilnehmeranzahl, finalDatum, saison, typ);
         this.name = name;
         this.land = land;
         this.teams = teams;
-        this.finalDatum = finalDatum;
     }
+
     //endregion
 
 
@@ -68,9 +67,10 @@ public class NationalerCup extends Wettkampf {
                 "name='" + name + '\'' +
                 ", land='" + land + '\'' +
                 ", teams=" + teams +
-                ", finalDatum=" + finalDatum +
                 ", Id=" + Id +
-                ", teilnehmerzahl=" + teilnehmerzahl +
+                ", teilnehmeranzahl=" + teilnehmeranzahl +
+                ", finalDatum=" + finalDatum +
+                ", saison='" + saison + '\'' +
                 '}';
     }
 }

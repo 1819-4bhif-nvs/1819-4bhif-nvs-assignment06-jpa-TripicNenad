@@ -13,17 +13,20 @@ public class Liga extends Wettkampf{
     @JsonbTransient
     List<Team> teams;
     int spieltage;
+    String land;
 
     //region Konstruktoren
     public Liga() {
     }
 
-    public Liga(int teilnehmerzahl, Wettkampftyp typ, String liganame, List<Team> teams, int spieltage) {
-        super(teilnehmerzahl, typ);
+    public Liga(int teilnehmeranzahl, String saison, Wettkampftyp typ, String liganame, List<Team> teams, int spieltage, String land) {
+        super(teilnehmeranzahl, saison, typ);
         this.liganame = liganame;
         this.teams = teams;
         this.spieltage = spieltage;
+        this.land = land;
     }
+
     //endregion
 
     //region Getter und Setter
@@ -59,8 +62,11 @@ public class Liga extends Wettkampf{
                 "liganame='" + liganame + '\'' +
                 ", teams=" + teams +
                 ", spieltage=" + spieltage +
+                ", land='" + land + '\'' +
                 ", Id=" + Id +
-                ", teilnehmerzahl=" + teilnehmerzahl +
+                ", teilnehmeranzahl=" + teilnehmeranzahl +
+                ", finalDatum=" + finalDatum +
+                ", saison='" + saison + '\'' +
                 '}';
     }
 }

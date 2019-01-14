@@ -13,19 +13,19 @@ public class InternationalerCup extends Wettkampf {
     @OneToMany(cascade = CascadeType.ALL)
     @JsonbTransient
     List<Team> teams;
-    LocalDate finalDatum;
+
 
     //region Konstruktoren
     public InternationalerCup() {
     }
 
-    public InternationalerCup(int teilnehmerzahl, Wettkampftyp typ, String name, String kontinent, List<Team> teams, LocalDate finalDatum) {
-        super(teilnehmerzahl, typ);
+    public InternationalerCup(int teilnehmeranzahl, LocalDate finalDatum, String saison, Wettkampftyp typ, String name, String kontinent, List<Team> teams) {
+        super(teilnehmeranzahl, finalDatum, saison, typ);
         this.name = name;
         this.kontinent = kontinent;
         this.teams = teams;
-        this.finalDatum = finalDatum;
     }
+
     //endregion
 
     //region Getter und Setter
@@ -66,9 +66,10 @@ public class InternationalerCup extends Wettkampf {
                 "name='" + name + '\'' +
                 ", kontinent='" + kontinent + '\'' +
                 ", teams=" + teams +
-                ", finalDatum=" + finalDatum +
                 ", Id=" + Id +
-                ", teilnehmerzahl=" + teilnehmerzahl +
+                ", teilnehmeranzahl=" + teilnehmeranzahl +
+                ", finalDatum=" + finalDatum +
+                ", saison='" + saison + '\'' +
                 '}';
     }
 }

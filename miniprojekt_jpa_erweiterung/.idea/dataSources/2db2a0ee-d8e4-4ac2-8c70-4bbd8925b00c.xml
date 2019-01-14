@@ -25,328 +25,296 @@
     <table id="17" parent="2" name="NATIONALCUPS"/>
     <table id="18" parent="2" name="NATIONALCUPS_TEAMS"/>
     <table id="19" parent="2" name="TEAMS"/>
-    <table id="20" parent="2" name="VEHICLE"/>
-    <table id="21" parent="2" name="WETTKAEMPFE"/>
-    <column id="22" parent="13" name="FINALDATUM">
+    <table id="20" parent="2" name="WETTKAEMPFE"/>
+    <column id="21" parent="13" name="KONTINENT">
       <Position>1</Position>
-      <DataType>TIMESTAMP|93s</DataType>
+      <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="23" parent="13" name="KONTINENT">
+    <column id="22" parent="13" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="24" parent="13" name="NAME">
+    <column id="23" parent="13" name="ID">
       <Position>3</Position>
-      <DataType>VARCHAR(255)|12s</DataType>
-    </column>
-    <column id="25" parent="13" name="ID">
-      <Position>4</Position>
       <DataType>BIGINT|-5s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="26" parent="13" name="SQL181208204945210">
+    <index id="24" parent="13" name="SQL190114200853760">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="27" parent="13" name="SQL181208204945360">
+    <index id="25" parent="13" name="SQL190114200854110">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
     </index>
-    <key id="28" parent="13" name="SQL181208204945210">
+    <key id="26" parent="13" name="SQL190114200853760">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="29" parent="13" name="FK1GDLJRPOW1NC824SNNX4CFMTV">
+    <foreign-key id="27" parent="13" name="FK1GDLJRPOW1NC824SNNX4CFMTV">
       <ColNames>ID</ColNames>
       <RefSchemaName>APP</RefSchemaName>
       <RefTableName>WETTKAEMPFE</RefTableName>
-      <RefKeyName>SQL181208204945290</RefKeyName>
+      <RefKeyName>SQL190114200853930</RefKeyName>
       <RefColNames>ID</RefColNames>
     </foreign-key>
-    <column id="30" parent="14" name="INTERNATIONALERCUP_ID">
+    <column id="28" parent="14" name="INTERNATIONALERCUP_ID">
       <Position>1</Position>
       <DataType>BIGINT|-5s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="31" parent="14" name="TEAMS_ID">
+    <column id="29" parent="14" name="TEAMS_ID">
       <Position>2</Position>
       <DataType>BIGINT|-5s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="32" parent="14" name="SQL181208204945310">
+    <index id="30" parent="14" name="SQL190114200853960">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>TEAMS_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="33" parent="14" name="SQL181208204945362">
+    <index id="31" parent="14" name="SQL190114200854140">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>INTERNATIONALERCUP_ID</ColNames>
     </index>
-    <index id="34" parent="14" name="SQL181208204945361">
+    <index id="32" parent="14" name="SQL190114200854130">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>TEAMS_ID</ColNames>
     </index>
-    <key id="35" parent="14" name="SQL181208204945310">
+    <key id="33" parent="14" name="SQL190114200853960">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>TEAMS_ID</ColNames>
     </key>
-    <foreign-key id="36" parent="14" name="FKGFW71GMW9OMGUL7X7CEYCP8V5">
+    <foreign-key id="34" parent="14" name="FKGFW71GMW9OMGUL7X7CEYCP8V5">
       <ColNames>INTERNATIONALERCUP_ID</ColNames>
       <RefSchemaName>APP</RefSchemaName>
       <RefTableName>INTERNATIONALECUPS</RefTableName>
-      <RefKeyName>SQL181208204945210</RefKeyName>
+      <RefKeyName>SQL190114200853760</RefKeyName>
       <RefColNames>ID</RefColNames>
     </foreign-key>
-    <foreign-key id="37" parent="14" name="FKTMBNU4TKMKNNYKHCP6LBEPI01">
+    <foreign-key id="35" parent="14" name="FKTMBNU4TKMKNNYKHCP6LBEPI01">
       <ColNames>TEAMS_ID</ColNames>
       <RefSchemaName>APP</RefSchemaName>
       <RefTableName>TEAMS</RefTableName>
-      <RefKeyName>SQL181208204945280</RefKeyName>
+      <RefKeyName>SQL190114200853910</RefKeyName>
       <RefColNames>ID</RefColNames>
     </foreign-key>
-    <column id="38" parent="15" name="LIGANAME">
+    <column id="36" parent="15" name="LAND">
       <Position>1</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="39" parent="15" name="SPIELTAGE">
+    <column id="37" parent="15" name="LIGANAME">
       <Position>2</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="38" parent="15" name="SPIELTAGE">
+      <Position>3</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="40" parent="15" name="ID">
-      <Position>3</Position>
+    <column id="39" parent="15" name="ID">
+      <Position>4</Position>
       <DataType>BIGINT|-5s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="41" parent="15" name="SQL181208204945230">
+    <index id="40" parent="15" name="SQL190114200853810">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="42" parent="15" name="SQL181208204945370">
+    <index id="41" parent="15" name="SQL190114200854180">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
     </index>
-    <key id="43" parent="15" name="SQL181208204945230">
+    <key id="42" parent="15" name="SQL190114200853810">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="44" parent="15" name="FKQYIDXEBXFTB15AJUJNYOYAEHQ">
+    <foreign-key id="43" parent="15" name="FKQYIDXEBXFTB15AJUJNYOYAEHQ">
       <ColNames>ID</ColNames>
       <RefSchemaName>APP</RefSchemaName>
       <RefTableName>WETTKAEMPFE</RefTableName>
-      <RefKeyName>SQL181208204945290</RefKeyName>
+      <RefKeyName>SQL190114200853930</RefKeyName>
       <RefColNames>ID</RefColNames>
     </foreign-key>
-    <column id="45" parent="16" name="LIGA_ID">
+    <column id="44" parent="16" name="LIGA_ID">
       <Position>1</Position>
       <DataType>BIGINT|-5s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="46" parent="16" name="TEAMS_ID">
+    <column id="45" parent="16" name="TEAMS_ID">
       <Position>2</Position>
       <DataType>BIGINT|-5s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="47" parent="16" name="SQL181208204945330">
+    <index id="46" parent="16" name="SQL190114200853970">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>TEAMS_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="48" parent="16" name="SQL181208204945381">
+    <index id="47" parent="16" name="SQL190114200854190">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>LIGA_ID</ColNames>
     </index>
-    <index id="49" parent="16" name="SQL181208204945380">
+    <index id="48" parent="16" name="SQL190114200854181">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>TEAMS_ID</ColNames>
     </index>
-    <key id="50" parent="16" name="SQL181208204945330">
+    <key id="49" parent="16" name="SQL190114200853970">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>TEAMS_ID</ColNames>
     </key>
-    <foreign-key id="51" parent="16" name="FKS1BHTO9VSG4FQ5H8VWL0T06DX">
+    <foreign-key id="50" parent="16" name="FKS1BHTO9VSG4FQ5H8VWL0T06DX">
       <ColNames>LIGA_ID</ColNames>
       <RefSchemaName>APP</RefSchemaName>
       <RefTableName>LIGEN</RefTableName>
-      <RefKeyName>SQL181208204945230</RefKeyName>
+      <RefKeyName>SQL190114200853810</RefKeyName>
       <RefColNames>ID</RefColNames>
     </foreign-key>
-    <foreign-key id="52" parent="16" name="FKL80D8F31M0QHIAY02FUUVK7WP">
+    <foreign-key id="51" parent="16" name="FKL80D8F31M0QHIAY02FUUVK7WP">
       <ColNames>TEAMS_ID</ColNames>
       <RefSchemaName>APP</RefSchemaName>
       <RefTableName>TEAMS</RefTableName>
-      <RefKeyName>SQL181208204945280</RefKeyName>
+      <RefKeyName>SQL190114200853910</RefKeyName>
       <RefColNames>ID</RefColNames>
     </foreign-key>
-    <column id="53" parent="17" name="FINALDATUM">
+    <column id="52" parent="17" name="LAND">
       <Position>1</Position>
-      <DataType>TIMESTAMP|93s</DataType>
+      <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="54" parent="17" name="LAND">
+    <column id="53" parent="17" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="55" parent="17" name="NAME">
+    <column id="54" parent="17" name="ID">
       <Position>3</Position>
-      <DataType>VARCHAR(255)|12s</DataType>
-    </column>
-    <column id="56" parent="17" name="ID">
-      <Position>4</Position>
       <DataType>BIGINT|-5s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="57" parent="17" name="SQL181208204945250">
+    <index id="55" parent="17" name="SQL190114200853840">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="58" parent="17" name="SQL181208204945390">
+    <index id="56" parent="17" name="SQL190114200854260">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
     </index>
-    <key id="59" parent="17" name="SQL181208204945250">
+    <key id="57" parent="17" name="SQL190114200853840">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="60" parent="17" name="FKJ77EWFCLLTF3E0AQPGKNGLRYR">
+    <foreign-key id="58" parent="17" name="FKJ77EWFCLLTF3E0AQPGKNGLRYR">
       <ColNames>ID</ColNames>
       <RefSchemaName>APP</RefSchemaName>
       <RefTableName>WETTKAEMPFE</RefTableName>
-      <RefKeyName>SQL181208204945290</RefKeyName>
+      <RefKeyName>SQL190114200853930</RefKeyName>
       <RefColNames>ID</RefColNames>
     </foreign-key>
-    <column id="61" parent="18" name="NATIONALERCUP_ID">
+    <column id="59" parent="18" name="NATIONALERCUP_ID">
       <Position>1</Position>
       <DataType>BIGINT|-5s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="62" parent="18" name="TEAMS_ID">
+    <column id="60" parent="18" name="TEAMS_ID">
       <Position>2</Position>
       <DataType>BIGINT|-5s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="63" parent="18" name="SQL181208204945350">
+    <index id="61" parent="18" name="SQL190114200854070">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>TEAMS_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="64" parent="18" name="SQL181208204945400">
+    <index id="62" parent="18" name="SQL190114200854280">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>NATIONALERCUP_ID</ColNames>
     </index>
-    <index id="65" parent="18" name="SQL181208204945391">
+    <index id="63" parent="18" name="SQL190114200854270">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>TEAMS_ID</ColNames>
     </index>
-    <key id="66" parent="18" name="SQL181208204945350">
+    <key id="64" parent="18" name="SQL190114200854070">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>TEAMS_ID</ColNames>
     </key>
-    <foreign-key id="67" parent="18" name="FKHNEMI47S8B8AF2QSQJQAGIA76">
+    <foreign-key id="65" parent="18" name="FKHNEMI47S8B8AF2QSQJQAGIA76">
       <ColNames>NATIONALERCUP_ID</ColNames>
       <RefSchemaName>APP</RefSchemaName>
       <RefTableName>NATIONALCUPS</RefTableName>
-      <RefKeyName>SQL181208204945250</RefKeyName>
+      <RefKeyName>SQL190114200853840</RefKeyName>
       <RefColNames>ID</RefColNames>
     </foreign-key>
-    <foreign-key id="68" parent="18" name="FKJL8WO8D4M82LFWRAMJR4XDOR0">
+    <foreign-key id="66" parent="18" name="FKJL8WO8D4M82LFWRAMJR4XDOR0">
       <ColNames>TEAMS_ID</ColNames>
       <RefSchemaName>APP</RefSchemaName>
       <RefTableName>TEAMS</RefTableName>
-      <RefKeyName>SQL181208204945280</RefKeyName>
+      <RefKeyName>SQL190114200853910</RefKeyName>
       <RefColNames>ID</RefColNames>
     </foreign-key>
-    <column id="69" parent="19" name="ID">
+    <column id="67" parent="19" name="ID">
       <Position>1</Position>
       <DataType>BIGINT|-5s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <DefaultExpression>GENERATED_BY_DEFAULT</DefaultExpression>
     </column>
-    <column id="70" parent="19" name="CITY">
+    <column id="68" parent="19" name="LAND">
       <Position>2</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="71" parent="19" name="POINTS">
+    <column id="69" parent="19" name="STADT">
       <Position>3</Position>
-      <DataType>INTEGER|4s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <column id="72" parent="19" name="RANK">
+    <column id="70" parent="19" name="TEAMNAME">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <index id="71" parent="19" name="SQL190114200853910">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="72" parent="19" name="SQL190114200853910">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="73" parent="20" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>GENERATED_BY_DEFAULT</DefaultExpression>
+    </column>
+    <column id="74" parent="20" name="FINALDATUM">
+      <Position>2</Position>
+      <DataType>TIMESTAMP|93s</DataType>
+    </column>
+    <column id="75" parent="20" name="SAISON">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="76" parent="20" name="TEILNEHMERANZAHL">
       <Position>4</Position>
       <DataType>INTEGER|4s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="73" parent="19" name="TEAMNAME">
+    <column id="77" parent="20" name="TYP">
       <Position>5</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <index id="74" parent="19" name="SQL181208204945280">
+    <index id="78" parent="20" name="SQL190114200853930">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="75" parent="19" name="SQL181208204945280">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>ID</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="76" parent="20" name="ID">
-      <Position>1</Position>
-      <DataType>BIGINT|-5s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <DefaultExpression>GENERATED_BY_DEFAULT</DefaultExpression>
-    </column>
-    <column id="77" parent="20" name="BODYSTYLE">
-      <Position>2</Position>
-      <DataType>VARCHAR(255)|12s</DataType>
-    </column>
-    <column id="78" parent="20" name="BRAND">
-      <Position>3</Position>
-      <DataType>VARCHAR(255)|12s</DataType>
-    </column>
-    <column id="79" parent="20" name="MODEL">
-      <Position>4</Position>
-      <DataType>VARCHAR(255)|12s</DataType>
-    </column>
-    <index id="80" parent="20" name="SQL181208204941050">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>ID</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="81" parent="20" name="SQL181208204941050">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>ID</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="82" parent="21" name="ID">
-      <Position>1</Position>
-      <DataType>BIGINT|-5s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <DefaultExpression>GENERATED_BY_DEFAULT</DefaultExpression>
-    </column>
-    <column id="83" parent="21" name="TEILNEHMERZAHL">
-      <Position>2</Position>
-      <DataType>INTEGER|4s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="84" parent="21" name="TYP">
-      <Position>3</Position>
-      <DataType>VARCHAR(255)|12s</DataType>
-    </column>
-    <index id="85" parent="21" name="SQL181208204945290">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>ID</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="86" parent="21" name="SQL181208204945290">
+    <key id="79" parent="20" name="SQL190114200853930">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>

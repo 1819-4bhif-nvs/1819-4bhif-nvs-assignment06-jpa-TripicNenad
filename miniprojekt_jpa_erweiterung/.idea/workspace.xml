@@ -7,7 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d89a663-87a1-4598-92af-ef351dce281e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ERD.png" beforeDir="false" afterPath="$PROJECT_DIR$/ERD.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/business/InitBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/business/InitBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/InternationalerCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/InternationalerCup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Liga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Liga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/NationalerCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/NationalerCup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Wettkampf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Wettkampf.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,37 +52,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/TeamEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/InternationalerCup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            <state relative-caret-position="220">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="n#!!doc;n#InternationalerCup#0;n#InternationalerCup#0" />
                 <element signature="n#!!doc;n#getId#0;n#InternationalerCup#0" />
-                <element signature="method#toString#0;class#InternationalerCup#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/InternationalerCupEndpoint.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/business/InitBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="679">
+              <caret line="75" column="165" selection-start-line="75" selection-start-column="165" selection-end-line="75" selection-end-column="165" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,37 +77,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/LigaEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/TEAMS">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/WettkampfEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/NATIONALCUPS">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/NationalerCupEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/NATIONALCUPS_TEAMS">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -125,75 +110,70 @@
               <ID>JAVA</ID>
               <OriginalElement>at.htl.footballmanager.model.InternationalerCup</OriginalElement>
               <nodes>
-                <node x="664.5" y="472.0">at.htl.footballmanager.model.Wettkampftyp</node>
-                <node x="961.0" y="50.0">at.htl.footballmanager.model.Team</node>
-                <node x="957.0" y="472.0">at.htl.footballmanager.model.Liga</node>
-                <node x="389.5" y="301.0">at.htl.footballmanager.model.NationalerCup</node>
-                <node x="69.5" y="461.0">at.htl.footballmanager.model.InternationalerCup</node>
-                <node x="78.5" y="672.0">at.htl.footballmanager.model.Wettkampf</node>
+                <node x="81.0" y="61.0">at.htl.footballmanager.model.Team</node>
+                <node x="1024.5" y="272.0">at.htl.footballmanager.model.Wettkampftyp</node>
+                <node x="77.0" y="501.0">at.htl.footballmanager.model.Liga</node>
+                <node x="397.0" y="272.0">at.htl.footballmanager.model.InternationalerCup</node>
+                <node x="717.0" y="72.0">at.htl.footballmanager.model.NationalerCup</node>
+                <node x="709.5" y="490.0">at.htl.footballmanager.model.Wettkampf</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="at.htl.footballmanager.model.Liga" target="at.htl.footballmanager.model.Team">
-                  <point x="83.0" y="0.0" />
-                  <point x="1200.0" y="520.0" />
-                  <point x="1200.0" y="120.0" />
-                  <point x="79.0" y="0.0" />
-                </edge>
                 <edge source="at.htl.footballmanager.model.Liga" target="at.htl.footballmanager.model.Wettkampf">
-                  <point x="-40.0" y="48.0" />
-                  <point x="1000.0" y="720.0" />
-                  <point x="81.5" y="0.0" />
-                </edge>
-                <edge source="at.htl.footballmanager.model.NationalerCup" target="at.htl.footballmanager.model.Team">
-                  <point x="90.5" y="-40.0" />
-                  <point x="1000.0" y="320.0" />
-                  <point x="-40.0" y="70.0" />
+                  <point x="83.0" y="0.0" />
+                  <point x="-90.5" y="0.0" />
                 </edge>
                 <edge source="at.htl.footballmanager.model.InternationalerCup" target="at.htl.footballmanager.model.Team">
-                  <point x="40.0" y="-59.0" />
-                  <point x="200.0" y="120.0" />
-                  <point x="-79.0" y="0.0" />
+                  <point x="-83.0" y="-40.0" />
+                  <point x="200.0" y="280.0" />
+                  <point x="40.0" y="59.0" />
                 </edge>
                 <edge source="at.htl.footballmanager.model.NationalerCup" target="at.htl.footballmanager.model.Wettkampf">
+                  <point x="-83.0" y="40.0" />
+                  <point x="640.0" y="160.0" />
+                  <point x="640.0" y="520.0" />
+                  <point x="-90.5" y="-40.0" />
+                </edge>
+                <edge source="at.htl.footballmanager.model.NationalerCup" target="at.htl.footballmanager.model.Wettkampftyp">
+                  <point x="83.0" y="0.0" />
+                  <point x="1120.0" y="120.0" />
+                  <point x="0.0" y="-48.0" />
+                </edge>
+                <edge source="at.htl.footballmanager.model.Liga" target="at.htl.footballmanager.model.Team">
+                  <point x="0.0" y="-59.0" />
                   <point x="0.0" y="59.0" />
-                  <point x="480.0" y="690.0" />
-                  <point x="81.5" y="-30.0" />
+                </edge>
+                <edge source="at.htl.footballmanager.model.NationalerCup" target="at.htl.footballmanager.model.Team">
+                  <point x="0.0" y="-48.0" />
+                  <point x="800.0" y="0.0" />
+                  <point x="160.0" y="0.0" />
+                  <point x="0.0" y="-59.0" />
                 </edge>
                 <edge source="at.htl.footballmanager.model.InternationalerCup" target="at.htl.footballmanager.model.Wettkampf">
-                  <point x="-90.5" y="0.0" />
-                  <point x="0.0" y="520.0" />
-                  <point x="0.0" y="720.0" />
-                  <point x="-81.5" y="0.0" />
+                  <point x="0.0" y="48.0" />
+                  <point x="480.0" y="533.3333333333334" />
+                  <point x="-90.5" y="-26.66666666666663" />
                 </edge>
                 <edge source="at.htl.footballmanager.model.Liga" target="at.htl.footballmanager.model.Wettkampftyp">
-                  <point x="-83.0" y="0.0" />
+                  <point x="0.0" y="59.0" />
+                  <point x="160.0" y="720.0" />
+                  <point x="1280.0" y="720.0" />
+                  <point x="1280.0" y="320.0" />
                   <point x="95.5" y="0.0" />
                 </edge>
                 <edge source="at.htl.footballmanager.model.Wettkampf" target="at.htl.footballmanager.model.Wettkampftyp">
-                  <point x="81.5" y="-20.0" />
-                  <point x="520.0" y="700.0" />
-                  <point x="520.0" y="560.0" />
-                  <point x="-95.5" y="40.0" />
-                </edge>
-                <edge source="at.htl.footballmanager.model.NationalerCup" target="at.htl.footballmanager.model.Wettkampftyp">
                   <point x="90.5" y="0.0" />
-                  <point x="760.0" y="360.0" />
-                  <point x="0.0" y="-48.0" />
+                  <point x="1120.0" y="560.0" />
+                  <point x="0.0" y="48.0" />
                 </edge>
                 <edge source="at.htl.footballmanager.model.InternationalerCup" target="at.htl.footballmanager.model.Wettkampftyp">
-                  <point x="90.5" y="0.0" />
+                  <point x="83.0" y="0.0" />
                   <point x="-95.5" y="0.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.8" x="77.0" y="279.25" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-15.0" y="220.0" />
               <SelectedNodes>
-                <node>at.htl.footballmanager.model.Wettkampftyp</node>
-                <node>at.htl.footballmanager.model.Team</node>
-                <node>at.htl.footballmanager.model.Liga</node>
-                <node>at.htl.footballmanager.model.NationalerCup</node>
                 <node>at.htl.footballmanager.model.InternationalerCup</node>
-                <node>at.htl.footballmanager.model.Wettkampf</node>
               </SelectedNodes>
               <Categories>
                 <Category>Fields</Category>
@@ -211,69 +191,69 @@
               <ID>DATABASE</ID>
               <OriginalElement>2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS</OriginalElement>
               <nodes>
-                <node x="626.5" y="158.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS</node>
-                <node x="0.0" y="158.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS</node>
-                <node x="339.0729166666667" y="338.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN_TEAMS</node>
-                <node x="413.0" y="169.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN</node>
-                <node x="208.0" y="147.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.TEAMS</node>
-                <node x="545.0" y="338.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS_TEAMS</node>
-                <node x="418.0" y="0.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.WETTKAEMPFE</node>
-                <node x="52.71875" y="338.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS_TEAMS</node>
+                <node x="397.75" y="202.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS</node>
+                <node x="0.0" y="202.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS</node>
+                <node x="588.25" y="360.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN_TEAMS</node>
+                <node x="192.75" y="191.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.TEAMS</node>
+                <node x="283.9791666666667" y="360.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS_TEAMS</node>
+                <node x="604.75" y="191.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN</node>
+                <node x="38.90625" y="360.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS_TEAMS</node>
+                <node x="397.25" y="0.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.WETTKAEMPFE</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.WETTKAEMPFE">
-                  <point x="0.0" y="-59.5" />
-                  <point x="720.5" y="122.0" />
-                  <point x="559.6666666666666" y="122.0" />
-                  <point x="56.66666666666663" y="48.5" />
+                  <point x="0.0" y="-48.5" />
+                  <point x="0.0" y="70.5" />
                 </edge>
                 <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS_TEAMS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.TEAMS">
                   <point x="50.0" y="-37.0" />
-                  <point x="202.71875" y="318.0" />
-                  <point x="238.83333333333334" y="318.0" />
-                  <point x="-61.66666666666666" y="70.5" />
+                  <point x="188.90625" y="340.0" />
+                  <point x="223.58333333333334" y="340.0" />
+                  <point x="-61.66666666666666" y="59.5" />
+                </edge>
+                <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.WETTKAEMPFE">
+                  <point x="0.0" y="-48.5" />
+                  <point x="76.5" y="166.0" />
+                  <point x="428.5833333333333" y="166.0" />
+                  <point x="-62.666666666666686" y="70.5" />
                 </edge>
                 <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS_TEAMS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS">
                   <point x="-50.0" y="-37.0" />
-                  <point x="102.71875" y="318.0" />
-                  <point x="94.0" y="318.0" />
-                  <point x="0.0" y="59.5" />
+                  <point x="88.90625" y="340.0" />
+                  <point x="76.5" y="340.0" />
+                  <point x="0.0" y="48.5" />
                 </edge>
                 <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS_TEAMS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.TEAMS">
-                  <point x="-58.49999999999994" y="-37.0" />
-                  <point x="603.5" y="308.0" />
-                  <point x="362.16666666666663" y="308.0" />
-                  <point x="61.66666666666663" y="70.5" />
-                </edge>
-                <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.WETTKAEMPFE">
-                  <point x="0.0" y="-59.5" />
-                  <point x="94.0" y="122.0" />
-                  <point x="446.3333333333333" y="122.0" />
-                  <point x="-56.666666666666686" y="48.5" />
+                  <point x="-58.5" y="-37.0" />
+                  <point x="342.4791666666667" y="340.0" />
+                  <point x="285.25" y="340.0" />
+                  <point x="0.0" y="59.5" />
                 </edge>
                 <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS_TEAMS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS">
-                  <point x="58.50000000000006" y="-37.0" />
-                  <point x="0.0" y="59.5" />
+                  <point x="58.5" y="-37.0" />
+                  <point x="459.4791666666667" y="340.0" />
+                  <point x="491.25" y="340.0" />
+                  <point x="0.0" y="48.5" />
                 </edge>
                 <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN_TEAMS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN">
                   <point x="35.5" y="-37.0" />
-                  <point x="445.5729166666667" y="318.0" />
-                  <point x="503.0" y="318.0" />
-                  <point x="0.0" y="48.5" />
+                  <point x="0.0" y="59.5" />
                 </edge>
                 <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.WETTKAEMPFE">
-                  <point x="0.0" y="-48.5" />
-                  <point x="0.0" y="48.5" />
+                  <point x="0.0" y="-59.5" />
+                  <point x="694.75" y="166.0" />
+                  <point x="553.9166666666666" y="166.0" />
+                  <point x="62.66666666666663" y="70.5" />
                 </edge>
                 <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN_TEAMS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.TEAMS">
                   <point x="-35.5" y="-37.0" />
-                  <point x="374.5729166666667" y="318.0" />
-                  <point x="300.5" y="318.0" />
-                  <point x="0.0" y="70.5" />
+                  <point x="623.75" y="330.0" />
+                  <point x="346.91666666666663" y="330.0" />
+                  <point x="61.66666666666663" y="59.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="407.5" y="288.0" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="702.0" y="217.0" />
               <SelectedNodes />
               <Categories>
                 <Category>Key columns</Category>
@@ -297,10 +277,12 @@
     <findStrings>
       <find>'</find>
       <find>Liga</find>
+      <find>0</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
       <replace>Team</replace>
+      <replace>&quot;DEUTSCHLAND&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -314,20 +296,20 @@
         <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/Wettkampf.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Nationalercup.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/RestConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/business/InitBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Team.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/console_1.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Wettkampf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/InternationalerCup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Liga.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/NationalerCup.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/LocalDateConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/TeamEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/InternationalerCupEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/LigaEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/NationalerCupEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/WettkampfEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Wettkampf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/InternationalerCup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Liga.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/NationalerCup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Team.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/footballmanager/business/InitBean.java" />
       </list>
     </option>
   </component>
@@ -351,6 +333,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -412,7 +395,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -420,9 +402,9 @@
     <property name="DatabaseDriversLRU" value="derby" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546976943198" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547494412090" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ERD.png" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -534,16 +516,26 @@
       <workItem from="1544692311188" duration="1068000" />
       <workItem from="1545038952606" duration="787000" />
       <workItem from="1546975768637" duration="1175000" />
+      <workItem from="1547489420956" duration="4425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28140000" />
+    <option name="totallyTimeSpent" value="32565000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17377399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -554,7 +546,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32666665" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -567,7 +559,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32996634" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3288889" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -576,7 +568,7 @@
       <window_info anchor="right" id="JSF" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="CDI" order="7" />
-      <window_info active="true" anchor="right" id="Database" order="8" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
@@ -590,13 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Wettkampftyp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -631,66 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/business/InitBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/NATIONALCUPS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/LIGEN_TEAMS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/INTERNATIONALECUPS_TEAMS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/INTERNATIONALECUPS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/NATIONALCUPS_TEAMS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/NationalerCup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#getId#0;n#NationalerCup#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,61 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Wettkampf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#Wettkampf#0;n#Wettkampf#0" />
-            <element signature="n#!!doc;n#getId#0;n#Wettkampf#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Liga.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#Liga#0;n#Liga#0" />
-            <element signature="n#!!doc;n#getLiganame#0;n#Liga#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc;n#getId#0;n#Team#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/LIGEN">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/TEAMS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/WETTKAEMPFE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/VEHICLE">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -766,43 +640,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/tripi/Documents/HTL/4Klasse/NVS/Stuetz/Assignment 06 - miniprojekt erweiterung/1819-4bhif-nvs-assignment06-jpa-TripicNenad/miniprojekt_jpa_erweiterung/src/main/java/at/htl/footballmanager/business;C:/Users/tripi/Documents/HTL/4Klasse/NVS/Stuetz/Assignment 06 - miniprojekt erweiterung/1819-4bhif-nvs-assignment06-jpa-TripicNenad/miniprojekt_jpa_erweiterung/src/main/java/at/htl/footballmanager/model;C:/Users/tripi/Documents/HTL/4Klasse/NVS/Stuetz/Assignment 06 - miniprojekt erweiterung/1819-4bhif-nvs-assignment06-jpa-TripicNenad/miniprojekt_jpa_erweiterung/src/main/java/at/htl/footballmanager/rest;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/at/htl/footballmanager/business;C:/Users/tripi/Documents/HTL/4Klasse/NVS/Stuetz/Assignment 06 - miniprojekt erweiterung/1819-4bhif-nvs-assignment06-jpa-TripicNenad/miniprojekt_jpa_erweiterung/src/main/java/at/htl/footballmanager/model;C:/Users/tripi/Documents/HTL/4Klasse/NVS/Stuetz/Assignment 06 - miniprojekt erweiterung/1819-4bhif-nvs-assignment06-jpa-TripicNenad/miniprojekt_jpa_erweiterung/src/main/java/at/htl/footballmanager/rest;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="777.0" y="423.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/TeamEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state>
           <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/InternationalerCup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#InternationalerCup#0;n#InternationalerCup#0" />
-            <element signature="n#!!doc;n#getId#0;n#InternationalerCup#0" />
-            <element signature="method#toString#0;class#InternationalerCup#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/InternationalerCupEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/LigaEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -819,23 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JavaScript-modules-diagram/C:/Users/tripi/Documents/HTL/4Klasse/NVS/Stuetz/Assignment 06 - miniprojekt erweiterung/1819-4bhif-nvs-assignment06-jpa-TripicNenad/miniprojekt_jpa_erweiterung/src/main/java/at/htl/footballmanager/business;C:/Users/tripi/Documents/HTL/4Klasse/NVS/Stuetz/Assignment 06 - miniprojekt erweiterung/1819-4bhif-nvs-assignment06-jpa-TripicNenad/miniprojekt_jpa_erweiterung/src/main/java/at/htl/footballmanager/model;C:/Users/tripi/Documents/HTL/4Klasse/NVS/Stuetz/Assignment 06 - miniprojekt erweiterung/1819-4bhif-nvs-assignment06-jpa-TripicNenad/miniprojekt_jpa_erweiterung/src/main/java/at/htl/footballmanager/rest;">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/main/java/at/htl/footballmanager/business;C:/Users/tripi/Documents/HTL/4Klasse/NVS/Stuetz/Assignment 06 - miniprojekt erweiterung/1819-4bhif-nvs-assignment06-jpa-TripicNenad/miniprojekt_jpa_erweiterung/src/main/java/at/htl/footballmanager/model;C:/Users/tripi/Documents/HTL/4Klasse/NVS/Stuetz/Assignment 06 - miniprojekt erweiterung/1819-4bhif-nvs-assignment06-jpa-TripicNenad/miniprojekt_jpa_erweiterung/src/main/java/at/htl/footballmanager/rest;</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="776.5" y="423.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/NationalerCupEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -846,81 +688,251 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Wettkampftyp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Wettkampf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#Wettkampf#0;n#Wettkampf#0" />
+            <element signature="n#!!doc;n#getId#0;n#Wettkampf#0" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1699#1700#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/InternationalerCupEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="24" column="67" lean-forward="true" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/rest/LigaEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc;n#getId#0;n#Team#0" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/Liga.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="133" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="133" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getLiganame#0;n#Liga#0" />
+            <element signature="method#toString#0;class#Liga#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/NationalerCup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="145" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getId#0;n#NationalerCup#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/INTERNATIONALECUPS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/INTERNATIONALECUPS_TEAMS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/LIGEN">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/LIGEN_TEAMS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/WETTKAEMPFE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/TEAMS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/NATIONALCUPS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c/schema/APP/table/NATIONALCUPS_TEAMS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/business/InitBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="75" column="165" selection-start-line="75" selection-start-column="165" selection-end-line="75" selection-end-column="165" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/footballmanager/model/InternationalerCup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getId#0;n#InternationalerCup#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://JAVA/at.htl.footballmanager.model.InternationalerCup">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>at.htl.footballmanager.model.InternationalerCup</OriginalElement>
           <nodes>
-            <node x="664.5" y="472.0">at.htl.footballmanager.model.Wettkampftyp</node>
-            <node x="961.0" y="50.0">at.htl.footballmanager.model.Team</node>
-            <node x="957.0" y="472.0">at.htl.footballmanager.model.Liga</node>
-            <node x="389.5" y="301.0">at.htl.footballmanager.model.NationalerCup</node>
-            <node x="69.5" y="461.0">at.htl.footballmanager.model.InternationalerCup</node>
-            <node x="78.5" y="672.0">at.htl.footballmanager.model.Wettkampf</node>
+            <node x="81.0" y="61.0">at.htl.footballmanager.model.Team</node>
+            <node x="1024.5" y="272.0">at.htl.footballmanager.model.Wettkampftyp</node>
+            <node x="77.0" y="501.0">at.htl.footballmanager.model.Liga</node>
+            <node x="397.0" y="272.0">at.htl.footballmanager.model.InternationalerCup</node>
+            <node x="717.0" y="72.0">at.htl.footballmanager.model.NationalerCup</node>
+            <node x="709.5" y="490.0">at.htl.footballmanager.model.Wettkampf</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="at.htl.footballmanager.model.Liga" target="at.htl.footballmanager.model.Team">
-              <point x="83.0" y="0.0" />
-              <point x="1200.0" y="520.0" />
-              <point x="1200.0" y="120.0" />
-              <point x="79.0" y="0.0" />
-            </edge>
             <edge source="at.htl.footballmanager.model.Liga" target="at.htl.footballmanager.model.Wettkampf">
-              <point x="-40.0" y="48.0" />
-              <point x="1000.0" y="720.0" />
-              <point x="81.5" y="0.0" />
-            </edge>
-            <edge source="at.htl.footballmanager.model.NationalerCup" target="at.htl.footballmanager.model.Team">
-              <point x="90.5" y="-40.0" />
-              <point x="1000.0" y="320.0" />
-              <point x="-40.0" y="70.0" />
+              <point x="83.0" y="0.0" />
+              <point x="-90.5" y="0.0" />
             </edge>
             <edge source="at.htl.footballmanager.model.InternationalerCup" target="at.htl.footballmanager.model.Team">
-              <point x="40.0" y="-59.0" />
-              <point x="200.0" y="120.0" />
-              <point x="-79.0" y="0.0" />
+              <point x="-83.0" y="-40.0" />
+              <point x="200.0" y="280.0" />
+              <point x="40.0" y="59.0" />
             </edge>
             <edge source="at.htl.footballmanager.model.NationalerCup" target="at.htl.footballmanager.model.Wettkampf">
+              <point x="-83.0" y="40.0" />
+              <point x="640.0" y="160.0" />
+              <point x="640.0" y="520.0" />
+              <point x="-90.5" y="-40.0" />
+            </edge>
+            <edge source="at.htl.footballmanager.model.NationalerCup" target="at.htl.footballmanager.model.Wettkampftyp">
+              <point x="83.0" y="0.0" />
+              <point x="1120.0" y="120.0" />
+              <point x="0.0" y="-48.0" />
+            </edge>
+            <edge source="at.htl.footballmanager.model.Liga" target="at.htl.footballmanager.model.Team">
+              <point x="0.0" y="-59.0" />
               <point x="0.0" y="59.0" />
-              <point x="480.0" y="690.0" />
-              <point x="81.5" y="-30.0" />
+            </edge>
+            <edge source="at.htl.footballmanager.model.NationalerCup" target="at.htl.footballmanager.model.Team">
+              <point x="0.0" y="-48.0" />
+              <point x="800.0" y="0.0" />
+              <point x="160.0" y="0.0" />
+              <point x="0.0" y="-59.0" />
             </edge>
             <edge source="at.htl.footballmanager.model.InternationalerCup" target="at.htl.footballmanager.model.Wettkampf">
-              <point x="-90.5" y="0.0" />
-              <point x="0.0" y="520.0" />
-              <point x="0.0" y="720.0" />
-              <point x="-81.5" y="0.0" />
+              <point x="0.0" y="48.0" />
+              <point x="480.0" y="533.3333333333334" />
+              <point x="-90.5" y="-26.66666666666663" />
             </edge>
             <edge source="at.htl.footballmanager.model.Liga" target="at.htl.footballmanager.model.Wettkampftyp">
-              <point x="-83.0" y="0.0" />
+              <point x="0.0" y="59.0" />
+              <point x="160.0" y="720.0" />
+              <point x="1280.0" y="720.0" />
+              <point x="1280.0" y="320.0" />
               <point x="95.5" y="0.0" />
             </edge>
             <edge source="at.htl.footballmanager.model.Wettkampf" target="at.htl.footballmanager.model.Wettkampftyp">
-              <point x="81.5" y="-20.0" />
-              <point x="520.0" y="700.0" />
-              <point x="520.0" y="560.0" />
-              <point x="-95.5" y="40.0" />
-            </edge>
-            <edge source="at.htl.footballmanager.model.NationalerCup" target="at.htl.footballmanager.model.Wettkampftyp">
               <point x="90.5" y="0.0" />
-              <point x="760.0" y="360.0" />
-              <point x="0.0" y="-48.0" />
+              <point x="1120.0" y="560.0" />
+              <point x="0.0" y="48.0" />
             </edge>
             <edge source="at.htl.footballmanager.model.InternationalerCup" target="at.htl.footballmanager.model.Wettkampftyp">
-              <point x="90.5" y="0.0" />
+              <point x="83.0" y="0.0" />
               <point x="-95.5" y="0.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.8" x="77.0" y="279.25" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-15.0" y="220.0" />
           <SelectedNodes>
-            <node>at.htl.footballmanager.model.Wettkampftyp</node>
-            <node>at.htl.footballmanager.model.Team</node>
-            <node>at.htl.footballmanager.model.Liga</node>
-            <node>at.htl.footballmanager.model.NationalerCup</node>
             <node>at.htl.footballmanager.model.InternationalerCup</node>
-            <node>at.htl.footballmanager.model.Wettkampf</node>
           </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
@@ -936,69 +948,69 @@
           <ID>DATABASE</ID>
           <OriginalElement>2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS</OriginalElement>
           <nodes>
-            <node x="626.5" y="158.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS</node>
-            <node x="0.0" y="158.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS</node>
-            <node x="339.0729166666667" y="338.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN_TEAMS</node>
-            <node x="413.0" y="169.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN</node>
-            <node x="208.0" y="147.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.TEAMS</node>
-            <node x="545.0" y="338.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS_TEAMS</node>
-            <node x="418.0" y="0.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.WETTKAEMPFE</node>
-            <node x="52.71875" y="338.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS_TEAMS</node>
+            <node x="397.75" y="202.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS</node>
+            <node x="0.0" y="202.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS</node>
+            <node x="588.25" y="360.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN_TEAMS</node>
+            <node x="192.75" y="191.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.TEAMS</node>
+            <node x="283.9791666666667" y="360.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS_TEAMS</node>
+            <node x="604.75" y="191.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN</node>
+            <node x="38.90625" y="360.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS_TEAMS</node>
+            <node x="397.25" y="0.0">2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.WETTKAEMPFE</node>
           </nodes>
           <notes />
           <edges>
             <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.WETTKAEMPFE">
-              <point x="0.0" y="-59.5" />
-              <point x="720.5" y="122.0" />
-              <point x="559.6666666666666" y="122.0" />
-              <point x="56.66666666666663" y="48.5" />
+              <point x="0.0" y="-48.5" />
+              <point x="0.0" y="70.5" />
             </edge>
             <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS_TEAMS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.TEAMS">
               <point x="50.0" y="-37.0" />
-              <point x="202.71875" y="318.0" />
-              <point x="238.83333333333334" y="318.0" />
-              <point x="-61.66666666666666" y="70.5" />
+              <point x="188.90625" y="340.0" />
+              <point x="223.58333333333334" y="340.0" />
+              <point x="-61.66666666666666" y="59.5" />
+            </edge>
+            <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.WETTKAEMPFE">
+              <point x="0.0" y="-48.5" />
+              <point x="76.5" y="166.0" />
+              <point x="428.5833333333333" y="166.0" />
+              <point x="-62.666666666666686" y="70.5" />
             </edge>
             <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS_TEAMS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS">
               <point x="-50.0" y="-37.0" />
-              <point x="102.71875" y="318.0" />
-              <point x="94.0" y="318.0" />
-              <point x="0.0" y="59.5" />
+              <point x="88.90625" y="340.0" />
+              <point x="76.5" y="340.0" />
+              <point x="0.0" y="48.5" />
             </edge>
             <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS_TEAMS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.TEAMS">
-              <point x="-58.49999999999994" y="-37.0" />
-              <point x="603.5" y="308.0" />
-              <point x="362.16666666666663" y="308.0" />
-              <point x="61.66666666666663" y="70.5" />
-            </edge>
-            <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.NATIONALCUPS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.WETTKAEMPFE">
-              <point x="0.0" y="-59.5" />
-              <point x="94.0" y="122.0" />
-              <point x="446.3333333333333" y="122.0" />
-              <point x="-56.666666666666686" y="48.5" />
+              <point x="-58.5" y="-37.0" />
+              <point x="342.4791666666667" y="340.0" />
+              <point x="285.25" y="340.0" />
+              <point x="0.0" y="59.5" />
             </edge>
             <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS_TEAMS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.INTERNATIONALECUPS">
-              <point x="58.50000000000006" y="-37.0" />
-              <point x="0.0" y="59.5" />
+              <point x="58.5" y="-37.0" />
+              <point x="459.4791666666667" y="340.0" />
+              <point x="491.25" y="340.0" />
+              <point x="0.0" y="48.5" />
             </edge>
             <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN_TEAMS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN">
               <point x="35.5" y="-37.0" />
-              <point x="445.5729166666667" y="318.0" />
-              <point x="503.0" y="318.0" />
-              <point x="0.0" y="48.5" />
+              <point x="0.0" y="59.5" />
             </edge>
             <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.WETTKAEMPFE">
-              <point x="0.0" y="-48.5" />
-              <point x="0.0" y="48.5" />
+              <point x="0.0" y="-59.5" />
+              <point x="694.75" y="166.0" />
+              <point x="553.9166666666666" y="166.0" />
+              <point x="62.66666666666663" y="70.5" />
             </edge>
             <edge source="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.LIGEN_TEAMS" target="2db2a0ee-d8e4-4ac2-8c70-4bbd8925b00c.TABLE:APP.TEAMS">
               <point x="-35.5" y="-37.0" />
-              <point x="374.5729166666667" y="318.0" />
-              <point x="300.5" y="318.0" />
-              <point x="0.0" y="70.5" />
+              <point x="623.75" y="330.0" />
+              <point x="346.91666666666663" y="330.0" />
+              <point x="61.66666666666663" y="59.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="407.5" y="288.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="702.0" y="217.0" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>

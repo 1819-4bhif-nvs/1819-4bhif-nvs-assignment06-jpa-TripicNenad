@@ -9,28 +9,19 @@ public class Team {
     @Id@GeneratedValue(strategy = GenerationType.IDENTITY)
     Long Id;
     String teamname;
-    String city;
-    int points;
-    int rank;
+    String stadt;
+    String land;
 
     //region Konstruktoren
     public Team() {
     }
 
-    public Team(String teamname, String city, int points, int rank) {
+    public Team(String teamname, String stadt, String land) {
         this.teamname = teamname;
-        this.city = city;
-        this.points = points;
-        this.rank = rank;
+        this.stadt = stadt;
+        this.land = land;
     }
 
-    public Team(int rank, String teamname, String city, int points)
-    {
-        this.teamname = teamname;
-        this.city = city;
-        this.points = points;
-        this.rank = rank;
-    }
     //endregion
 
 
@@ -47,30 +38,23 @@ public class Team {
         this.teamname = teamname;
     }
 
-    public String getCity() {
-        return city;
+    public String getStadt() {
+        return stadt;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setStadt(String stadt) {
+        this.stadt = stadt;
     }
 
-    public int getPoints() {
-        return points;
+    public String getLand() {
+        return land;
     }
 
-    public void setPoints(int points) {
-        this.points = points;
+    public void setLand(String land) {
+        this.land = land;
     }
 
-    public int getRank() {
-        return rank;
-    }
-
-    public void setRank(int rank) {
-        this.rank = rank;
-    }
-    //endregion
+//endregion
 
 
     @Override
@@ -78,9 +62,8 @@ public class Team {
         return "Team{" +
                 "Id=" + Id +
                 ", teamname='" + teamname + '\'' +
-                ", city='" + city + '\'' +
-                ", points=" + points +
-                ", rank=" + rank +
+                ", stadt='" + stadt + '\'' +
+                ", land='" + land + '\'' +
                 '}';
     }
 }
